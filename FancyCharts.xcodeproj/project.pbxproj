@@ -16,6 +16,7 @@
 		744C03922557DD70003AF96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744C03902557DD70003AF96A /* Main.storyboard */; };
 		744C03942557DD74003AF96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744C03932557DD74003AF96A /* Assets.xcassets */; };
 		744C03972557DD74003AF96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744C03952557DD74003AF96A /* LaunchScreen.storyboard */; };
+		744C03AB2557EC77003AF96A /* FancyCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03AA2557EC77003AF96A /* FancyCharts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		744C03932557DD74003AF96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744C03962557DD74003AF96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		744C03982557DD74003AF96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744C03AA2557EC77003AF96A /* FancyCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyCharts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		744C036A2557DBE6003AF96A /* FancyCharts */ = {
 			isa = PBXGroup;
 			children = (
+				744C03AA2557EC77003AF96A /* FancyCharts.swift */,
 				744C036B2557DBE6003AF96A /* FancyCharts.h */,
 				744C036C2557DBE6003AF96A /* Info.plist */,
 			);
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					744C03672557DBE6003AF96A = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 					744C03702557DBE6003AF96A = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744C03AB2557EC77003AF96A /* FancyCharts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		744C037D2557DBE6003AF96A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C2VNGGX9YQ;
@@ -454,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.krishnilbhojani.FancyCharts;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +469,7 @@
 		744C037E2557DBE6003AF96A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C2VNGGX9YQ;
@@ -486,6 +494,7 @@
 		744C03802557DBE6003AF96A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2VNGGX9YQ;
 				INFOPLIST_FILE = FancyChartsTests/Info.plist;
@@ -504,6 +513,7 @@
 		744C03812557DBE6003AF96A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2VNGGX9YQ;
 				INFOPLIST_FILE = FancyChartsTests/Info.plist;

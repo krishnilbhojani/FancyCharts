@@ -2,7 +2,7 @@
 //  FancyChartsTests.swift
 //  FancyChartsTests
 //
-//  Created by Qtis Developer on 08/11/20.
+//  Created by Krishnil Bhojani on 08/11/20.
 //
 
 import XCTest
@@ -10,6 +10,12 @@ import XCTest
 
 class FancyChartsTests: XCTestCase {
 
+    var fancyCharts: FancyCharts!
+    
+    override func setUp() {
+        fancyCharts = FancyCharts()
+    }
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -28,6 +34,14 @@ class FancyChartsTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testAdd(){
+        XCTAssertEqual(fancyCharts.add(a: 1, b: 1), 2)
+    }
+    
+    func testSub(){
+        XCTAssertEqual(fancyCharts.sub(a: 2, b: 1), 1)
     }
 
 }

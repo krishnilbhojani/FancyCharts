@@ -2,7 +2,7 @@
 //  FancyCharts.h
 //  FancyCharts
 //
-//  Created by Qtis Developer on 08/11/20.
+//  Created by Krishnil Bhojani on 08/11/20.
 //
 
 #import <Foundation/Foundation.h>
