@@ -7,9 +7,9 @@
 
 import Foundation
 
-public final class FancyCharts {
-
-    let name = "FancyCharts"
+public class FancyCharts {
+    
+    public init() {}
     
     public func add(a: Int, b: Int) -> Int {
         return a + b

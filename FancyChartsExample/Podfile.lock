@@ -1,0 +1,16 @@
+PODS:
+  - FancyCharts (0.0.1)
+
+DEPENDENCIES:
+  - FancyCharts (from `../`)
+
+EXTERNAL SOURCES:
+  FancyCharts:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FancyCharts: 9aa9b8bc1d14d893f9ad7fc738622d83785141be
+
+PODFILE CHECKSUM: 02e6de236fe0270b992febddfa22c62780389af6
+
+COCOAPODS: 1.10.0

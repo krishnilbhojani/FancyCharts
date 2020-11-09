@@ -10,12 +10,6 @@
 		744C03722557DBE6003AF96A /* FancyCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744C03682557DBE6003AF96A /* FancyCharts.framework */; };
 		744C03772557DBE6003AF96A /* FancyChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03762557DBE6003AF96A /* FancyChartsTests.swift */; };
 		744C03792557DBE6003AF96A /* FancyCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 744C036B2557DBE6003AF96A /* FancyCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		744C038B2557DD70003AF96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C038A2557DD70003AF96A /* AppDelegate.swift */; };
-		744C038D2557DD70003AF96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C038C2557DD70003AF96A /* SceneDelegate.swift */; };
-		744C038F2557DD70003AF96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C038E2557DD70003AF96A /* ViewController.swift */; };
-		744C03922557DD70003AF96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744C03902557DD70003AF96A /* Main.storyboard */; };
-		744C03942557DD74003AF96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744C03932557DD74003AF96A /* Assets.xcassets */; };
-		744C03972557DD74003AF96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744C03952557DD74003AF96A /* LaunchScreen.storyboard */; };
 		744C03AB2557EC77003AF96A /* FancyCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03AA2557EC77003AF96A /* FancyCharts.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,14 +30,6 @@
 		744C03712557DBE6003AF96A /* FancyChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		744C03762557DBE6003AF96A /* FancyChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyChartsTests.swift; sourceTree = "<group>"; };
 		744C03782557DBE6003AF96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		744C03882557DD70003AF96A /* FancyChartsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyChartsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		744C038A2557DD70003AF96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		744C038C2557DD70003AF96A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		744C038E2557DD70003AF96A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		744C03912557DD70003AF96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		744C03932557DD74003AF96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		744C03962557DD74003AF96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		744C03982557DD74003AF96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		744C03AA2557EC77003AF96A /* FancyCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyCharts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		744C03852557DD70003AF96A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +57,6 @@
 			children = (
 				744C036A2557DBE6003AF96A /* FancyCharts */,
 				744C03752557DBE6003AF96A /* FancyChartsTests */,
-				744C03892557DD70003AF96A /* FancyChartsExamples */,
 				744C03692557DBE6003AF96A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +66,6 @@
 			children = (
 				744C03682557DBE6003AF96A /* FancyCharts.framework */,
 				744C03712557DBE6003AF96A /* FancyChartsTests.xctest */,
-				744C03882557DD70003AF96A /* FancyChartsExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,20 +87,6 @@
 				744C03782557DBE6003AF96A /* Info.plist */,
 			);
 			path = FancyChartsTests;
-			sourceTree = "<group>";
-		};
-		744C03892557DD70003AF96A /* FancyChartsExamples */ = {
-			isa = PBXGroup;
-			children = (
-				744C038A2557DD70003AF96A /* AppDelegate.swift */,
-				744C038C2557DD70003AF96A /* SceneDelegate.swift */,
-				744C038E2557DD70003AF96A /* ViewController.swift */,
-				744C03902557DD70003AF96A /* Main.storyboard */,
-				744C03932557DD74003AF96A /* Assets.xcassets */,
-				744C03952557DD74003AF96A /* LaunchScreen.storyboard */,
-				744C03982557DD74003AF96A /* Info.plist */,
-			);
-			path = FancyChartsExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,23 +139,6 @@
 			productReference = 744C03712557DBE6003AF96A /* FancyChartsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		744C03872557DD70003AF96A /* FancyChartsExamples */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 744C03992557DD74003AF96A /* Build configuration list for PBXNativeTarget "FancyChartsExamples" */;
-			buildPhases = (
-				744C03842557DD70003AF96A /* Sources */,
-				744C03852557DD70003AF96A /* Frameworks */,
-				744C03862557DD70003AF96A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FancyChartsExamples;
-			productName = FancyChartsExamples;
-			productReference = 744C03882557DD70003AF96A /* FancyChartsExamples.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,9 +153,6 @@
 						LastSwiftMigration = 1200;
 					};
 					744C03702557DBE6003AF96A = {
-						CreatedOnToolsVersion = 12.0.1;
-					};
-					744C03872557DD70003AF96A = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -229,7 +172,6 @@
 			targets = (
 				744C03672557DBE6003AF96A /* FancyCharts */,
 				744C03702557DBE6003AF96A /* FancyChartsTests */,
-				744C03872557DD70003AF96A /* FancyChartsExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -246,16 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		744C03862557DD70003AF96A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				744C03972557DD74003AF96A /* LaunchScreen.storyboard in Resources */,
-				744C03942557DD74003AF96A /* Assets.xcassets in Resources */,
-				744C03922557DD70003AF96A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,16 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		744C03842557DD70003AF96A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				744C038F2557DD70003AF96A /* ViewController.swift in Sources */,
-				744C038B2557DD70003AF96A /* AppDelegate.swift in Sources */,
-				744C038D2557DD70003AF96A /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,25 +219,6 @@
 			targetProxy = 744C03732557DBE6003AF96A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		744C03902557DD70003AF96A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				744C03912557DD70003AF96A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		744C03952557DD74003AF96A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				744C03962557DD74003AF96A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		744C037A2557DBE6003AF96A /* Debug */ = {
@@ -529,44 +432,6 @@
 			};
 			name = Release;
 		};
-		744C039A2557DD74003AF96A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2VNGGX9YQ;
-				INFOPLIST_FILE = FancyChartsExamples/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.krishnilbhojani.FancyChartsExamples;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		744C039B2557DD74003AF96A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2VNGGX9YQ;
-				INFOPLIST_FILE = FancyChartsExamples/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.krishnilbhojani.FancyChartsExamples;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,15 +458,6 @@
 			buildConfigurations = (
 				744C03802557DBE6003AF96A /* Debug */,
 				744C03812557DBE6003AF96A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		744C03992557DD74003AF96A /* Build configuration list for PBXNativeTarget "FancyChartsExamples" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				744C039A2557DD74003AF96A /* Debug */,
-				744C039B2557DD74003AF96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
