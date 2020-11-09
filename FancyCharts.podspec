@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "FancyCharts"
-spec.version      = "0.0.2"
+spec.version      = "0.0.3"
 spec.summary      = "Implement fancy custom charts in your iOS project."
 spec.description  = "This CocoaPods library helps you implement custom charts in your iOS project."
 spec.homepage     = "https://github.com/krishnilbhojani/FancyCharts"
@@ -11,7 +11,7 @@ spec.license      = "MIT"
 spec.author             = { "Krishnil Bhojani" => "krishnilbhojani2001@gmail.com" }
 spec.platform     = :ios, "13.0"
 spec.swift_version = "5.0"
-spec.source       = { :git => "https://github.com/krishnilbhojani/FancyCharts.git", :tag => "0.0.2" }
+spec.source       = { :git => "https://github.com/krishnilbhojani/FancyCharts.git", :tag => "0.0.3" }
 
 spec.source_files  = "FancyCharts"
 
