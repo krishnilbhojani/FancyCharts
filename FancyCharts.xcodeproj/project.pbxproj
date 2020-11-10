@@ -11,6 +11,7 @@
 		744C03772557DBE6003AF96A /* FancyChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03762557DBE6003AF96A /* FancyChartsTests.swift */; };
 		744C03792557DBE6003AF96A /* FancyCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 744C036B2557DBE6003AF96A /* FancyCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		744C03AB2557EC77003AF96A /* FancyCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03AA2557EC77003AF96A /* FancyCharts.swift */; };
+		74CF7F46255A838200994096 /* RadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7F45255A838200994096 /* RadarChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		744C03762557DBE6003AF96A /* FancyChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyChartsTests.swift; sourceTree = "<group>"; };
 		744C03782557DBE6003AF96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		744C03AA2557EC77003AF96A /* FancyCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyCharts.swift; sourceTree = "<group>"; };
+		74CF7F45255A838200994096 /* RadarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				744C03AA2557EC77003AF96A /* FancyCharts.swift */,
+				74CF7F44255A836500994096 /* Charts */,
 				744C036B2557DBE6003AF96A /* FancyCharts.h */,
 				744C036C2557DBE6003AF96A /* Info.plist */,
 			);
@@ -87,6 +90,14 @@
 				744C03782557DBE6003AF96A /* Info.plist */,
 			);
 			path = FancyChartsTests;
+			sourceTree = "<group>";
+		};
+		74CF7F44255A836500994096 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7F45255A838200994096 /* RadarChart.swift */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				744C03AB2557EC77003AF96A /* FancyCharts.swift in Sources */,
+				74CF7F46255A838200994096 /* RadarChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

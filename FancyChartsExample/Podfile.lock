@@ -1,5 +1,5 @@
 PODS:
-  - FancyCharts (0.0.1)
+  - FancyCharts (0.0.3)
 
 DEPENDENCIES:
   - FancyCharts (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FancyCharts: 9aa9b8bc1d14d893f9ad7fc738622d83785141be
+  FancyCharts: 2a0f225f49115fe4730ac991b9eef2dcade0a627
 
 PODFILE CHECKSUM: 02e6de236fe0270b992febddfa22c62780389af6
 

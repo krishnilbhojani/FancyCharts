@@ -3,16 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		744C03EB25585F39003AF96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03EA25585F39003AF96A /* AppDelegate.swift */; };
 		744C03ED25585F39003AF96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03EC25585F39003AF96A /* SceneDelegate.swift */; };
-		744C03EF25585F39003AF96A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744C03EE25585F39003AF96A /* ViewController.swift */; };
 		744C03F225585F39003AF96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744C03F025585F39003AF96A /* Main.storyboard */; };
 		744C03F425585F3D003AF96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744C03F325585F3D003AF96A /* Assets.xcassets */; };
 		744C03F725585F3D003AF96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744C03F525585F3D003AF96A /* LaunchScreen.storyboard */; };
+		74CF7F4F255A851300994096 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7F4E255A851300994096 /* HomeViewController.swift */; };
+		74CF7F64255A866600994096 /* RadarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF7F63255A866600994096 /* RadarChartViewController.swift */; };
 		F3268124705043F45AE69343 /* Pods_FancyChartsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE50769EE4D40334C8285CF /* Pods_FancyChartsExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +22,13 @@
 		744C03E725585F39003AF96A /* FancyChartsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyChartsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		744C03EA25585F39003AF96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		744C03EC25585F39003AF96A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		744C03EE25585F39003AF96A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		744C03F125585F39003AF96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		744C03F325585F3D003AF96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		744C03F625585F3D003AF96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		744C03F825585F3D003AF96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CF7F4E255A851300994096 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		74CF7F5F255A861200994096 /* StoryboardUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardUtility.swift; sourceTree = "<group>"; };
+		74CF7F63255A866600994096 /* RadarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarChartViewController.swift; sourceTree = "<group>"; };
 		833AAD094BBE563374449B7E /* Pods-FancyChartsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FancyChartsExample.release.xcconfig"; path = "Target Support Files/Pods-FancyChartsExample/Pods-FancyChartsExample.release.xcconfig"; sourceTree = "<group>"; };
 		9EE50769EE4D40334C8285CF /* Pods_FancyChartsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FancyChartsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,13 +68,39 @@
 			children = (
 				744C03EA25585F39003AF96A /* AppDelegate.swift */,
 				744C03EC25585F39003AF96A /* SceneDelegate.swift */,
-				744C03EE25585F39003AF96A /* ViewController.swift */,
-				744C03F025585F39003AF96A /* Main.storyboard */,
+				74CF7F51255A861200994096 /* Utility */,
+				74CF7F4C255A83F600994096 /* ViewControllers */,
+				74CF7F4B255A83EC00994096 /* Storyboards */,
 				744C03F325585F3D003AF96A /* Assets.xcassets */,
 				744C03F525585F3D003AF96A /* LaunchScreen.storyboard */,
 				744C03F825585F3D003AF96A /* Info.plist */,
 			);
 			path = FancyChartsExample;
+			sourceTree = "<group>";
+		};
+		74CF7F4B255A83EC00994096 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				744C03F025585F39003AF96A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		74CF7F4C255A83F600994096 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7F4E255A851300994096 /* HomeViewController.swift */,
+				74CF7F63255A866600994096 /* RadarChartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74CF7F51255A861200994096 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				74CF7F5F255A861200994096 /* StoryboardUtility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		913C3CDBED04F326453E3C8C /* Frameworks */ = {
@@ -88,7 +117,6 @@
 				303F41D46C2C39035FE5DECF /* Pods-FancyChartsExample.debug.xcconfig */,
 				833AAD094BBE563374449B7E /* Pods-FancyChartsExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,9 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744C03EF25585F39003AF96A /* ViewController.swift in Sources */,
 				744C03EB25585F39003AF96A /* AppDelegate.swift in Sources */,
 				744C03ED25585F39003AF96A /* SceneDelegate.swift in Sources */,
+				74CF7F64255A866600994096 /* RadarChartViewController.swift in Sources */,
+				74CF7F4F255A851300994096 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
